@@ -73,13 +73,13 @@
 						<div>
 							<c:choose>
 								<c:when test="${!empty sessionScope.member}">
-									<a href="javascript:visitBtn_func();" id="visitBtn" style="color: #3d3d3d;"> <!-- visitArt_func(); --> 
+									<a href="javascript:visitBtn_func();" id="visitBtn" style="color: #3d3d3d;">
 										<i class="fa fa-check fa-2x"></i><br> 
 										<label>다녀왔어요</label>
 									</a>
 								</c:when>
 								<c:otherwise>
-									<a href="javascript:login_need(this);" id="visitBtn" style="color: #3d3d3d;"> <!-- visitArt_func(); --> 
+									<a href="javascript:login_need(this);" id="visitBtn" style="color: #3d3d3d;">
 										<i class="fa fa-check fa-2x"></i><br> 
 										<label>다녀왔어요</label>
 									</a>
